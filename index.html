@@ -36,7 +36,7 @@
             align-items: center;
         }
 
-        /* Top Pill Badge */
+        /* Top Badge */
         .top-badge {
             display: inline-flex;
             align-items: center;
@@ -52,7 +52,7 @@
             background: rgba(229, 169, 59, 0.05);
         }
 
-        /* Profile Image Ring */
+        /* Profile Image Container */
         .profile-container {
             position: relative;
             width: 120px;
@@ -69,17 +69,7 @@
             height: 100%;
             border-radius: 50%;
             object-fit: cover;
-            background-color: #1e293b;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-        }
-
-        .profile-img svg {
-            width: 60%;
-            height: 60%;
-            fill: #94a3b8;
+            display: block;
         }
 
         /* Title */
@@ -147,7 +137,7 @@
             font-weight: 500;
         }
 
-        /* Call To Action Button */
+        /* CTA Button */
         .cta-btn {
             display: flex;
             align-items: center;
@@ -184,7 +174,7 @@
             margin-bottom: 20px;
         }
 
-        /* Footer Links for Modals */
+        /* Footer Links */
         .footer-links {
             display: flex;
             flex-wrap: wrap;
@@ -209,7 +199,7 @@
             color: #f1b33b;
         }
 
-        /* Modal Popup Styling */
+        /* Modal Popup */
         .modal-overlay {
             position: fixed;
             top: 0;
@@ -276,12 +266,8 @@
         </div>
 
         <div class="profile-container">
-            <div class="profile-img">
-                <!-- Profile Image / Placeholder -->
-                <svg viewBox="0 0 24 24">
-                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                </svg>
-            </div>
+            <!-- Yahan apni logo image ka URL daalein -->
+            <img src="Navjot.jpeg" alt="Navjot Brar" class="profile-img">
         </div>
 
         <h1 class="main-title">Navjot Brar (official)</h1>
